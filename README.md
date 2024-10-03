@@ -1,5 +1,5 @@
 # **Cross-Course Project: GameHub**
-**Diana Bergelin**
+***Diana Bergelin***
 ---
 ![image](https://github.com/user-attachments/assets/7c7fd573-3771-43bf-8616-cf197cb71f8b)
 

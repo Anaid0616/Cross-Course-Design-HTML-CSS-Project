@@ -1,0 +1,526 @@
+@import url("./style.css");
+/* Use import to split up your CSS into manageable chunks */
+/* Feel free to add as many of these imports as you need */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;700&family=Merriweather+Sans:ital,wght@0,300;0,400;1,300&display=swap");
+
+body {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  font-family: "Inter", sans-serif, Verdana;
+  margin: 0;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+/* header */
+
+header {
+  font-family: "Merriweather Sans", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #1b203d;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.71);
+}
+
+.logo {
+  max-width: 150px;
+  margin-left: 60px;
+}
+
+.cart {
+  width: 42px;
+  height: 32px;
+  padding-left: 10px;
+}
+
+.cart-count {
+  margin-right: 60px;
+  font-size: 0.8rem;
+}
+
+.hamburger-icon {
+  font-size: 1.4rem;
+  padding-left: 25px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.header-menu {
+  display: none;
+  position: fixed;
+  top: 119.5px;
+  background-color: #1b203d;
+  z-index: 1000;
+}
+
+.header-menu ul {
+  list-style: none;
+}
+
+.header-menu li {
+  display: block;
+  padding: 40px;
+  margin-right: 20px;
+}
+
+#checkbox-menu {
+  display: none;
+}
+
+#checkbox-menu:checked ~ .header-menu {
+  display: block;
+}
+
+.header-menu a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.header-menu a:hover {
+  text-decoration: underline;
+}
+
+.header-menu a:active {
+  text-decoration-color: #df06a6;
+}
+
+.show-menu {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.cta-button {
+  background-image: linear-gradient(to bottom, #82017f, #df06a6);
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 501;
+  padding: 18px 28px;
+  margin-top: -25px;
+  max-width: 80%;
+  border-radius: 40px;
+  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.cta-button:hover {
+  transform: scale(1.08);
+}
+
+/* loader */
+
+.hideloader {
+  display: none;
+}
+
+.loader {
+  display: none;
+  width: 1em;
+  height: 1em;
+  border: 0.25em solid;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  display: flex;
+  margin: 0 auto;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+main .loader {
+  font-size: 2em;
+}
+
+/* games */
+
+.shadow {
+  box-shadow: 1px 1px 1px 1px rgba(186, 185, 185, 0.81);
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(186, 185, 185, 0.81);
+  -moz-box-shadow: 1px 1px 1px 1px rgba(186, 185, 185, 0.81);
+}
+
+/* contact, checkout */
+
+.hover:hover {
+  border: 3px solid #000;
+}
+
+/* games, about, product */
+
+.headline {
+  text-align: center;
+}
+
+.headline h1 {
+  display: inline-block;
+  font-size: 1.9rem;
+  margin-bottom: 60px;
+  background-image: linear-gradient(to right, #82017f, #df06a6);
+  background-size: 100% 4px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+}
+
+.go-back {
+  text-align: left;
+  margin-left: 4%;
+}
+
+.go-back a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.go-back a:hover {
+  text-decoration: underline;
+}
+
+/* contact, checkout */
+
+.contact-checkout h1 {
+  background-image: linear-gradient(to bottom, #82017f, #df06a6);
+  background-size: 3% 100%;
+  background-position: 0 10%;
+  margin-bottom: 3%;
+  padding-left: 20px;
+}
+
+/* footer */
+
+footer {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 6%;
+  padding-right: 6%;
+  box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 0px -2px 5px 0px rgba(0, 0, 0, 0.71);
+}
+
+.footer-nav {
+  margin-left: 20px;
+}
+
+.footer-nav li {
+  display: flex;
+}
+
+.footer-nav ul {
+  padding: 0px;
+}
+.menu .footer-nav li {
+  padding-bottom: 8px;
+}
+
+.footer-nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.menu,
+.connect {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.connect .aicon a:hover {
+  transform: scale(1.09);
+}
+
+.sign-up {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer div {
+  text-align: left;
+}
+
+.footer h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 20px;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+
+.connect p {
+  padding-left: 8px;
+  margin-top: 4px;
+}
+
+.footer p {
+  font-size: 0.95rem;
+}
+
+.social-icons {
+  max-height: 32px;
+  margin: 0px;
+}
+
+.payment__icons {
+  width: 37px;
+  height: 34px;
+  align-items: right;
+  padding-right: 2px;
+}
+
+#payment-klarna {
+  margin-bottom: -7px;
+  height: 38px;
+  padding: 0;
+}
+
+#payment-mastercard {
+  width: 36px;
+  height: 38px;
+  margin-bottom: -3px;
+}
+
+.sign-up {
+  margin-right: 20px;
+}
+
+.sign-up .light {
+  margin-left: 17px;
+  font-weight: 100;
+}
+
+.sign-up form {
+  margin-left: 16px;
+}
+
+.sign-up input[type="email"] {
+  width: 50%;
+  padding: 5px 30px 4px 10px;
+  border-radius: 5px 0px 0px 5px;
+  margin-right: 0;
+  border: none;
+  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+#sign-button {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 5px 23px 5px 18px;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -3px;
+  border: none;
+}
+
+.payments {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  margin-top: 9%;
+}
+
+.copy-container {
+  display: flex;
+  text-align: center;
+  width: 1350px;
+  border-top: 1px solid #ffffff;
+}
+
+.copy {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 600px) {
+  .header-menu {
+    padding: 40px 60px 60px 20px;
+    line-height: 90px;
+    width: 100%;
+  }
+
+  .logo {
+    margin-left: 0px;
+  }
+
+  .cart-count {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .header-menu {
+    display: block;
+    position: static;
+  }
+
+  .header-menu li {
+    display: inline-block;
+    padding: 0px;
+  }
+
+  .header label {
+    display: none;
+  }
+
+  .cart {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 700px) {
+  .header-menu {
+    margin-left: 5%;
+    margin-right: 3%;
+  }
+  .header.menu ul {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .header-menu li {
+    padding: 0px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 857px) {
+  .header-menu {
+    margin-left: 0px;
+  }
+  .header.menu ul {
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+
+  .header-menu li {
+    padding: 20px;
+    margin-right: 0px;
+  }
+
+  .header-menu a {
+    font-size: 0, 80rem;
+    padding: 6px;
+  }
+}
+
+@media screen and (min-width: 857px) and (max-width: 1000px) {
+  .header-menu {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 856px) {
+  .header.menu ul {
+    margin-right: -10px;
+    margin-left: -30px;
+  }
+
+  .header-menu li {
+    padding: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .sign-up {
+    margin-right: 0px;
+  }
+
+  .menu,
+  .connect {
+    width: 380px;
+  }
+
+  .sign-up {
+    width: 380px;
+  }
+
+  .copy-container {
+    width: 350px;
+    border-top: 1px solid #ffffff;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+  .footer {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .menu,
+  .sign-up,
+  .connect {
+    margin-left: 0;
+  }
+  .sign-up input[type="email"] {
+    width: 60%;
+  }
+}

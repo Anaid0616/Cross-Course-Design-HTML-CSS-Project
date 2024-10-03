@@ -41,11 +41,11 @@ The project uses the following technologies and tools:
  
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge) Dynamic content and interactive functionality.
 
-API Integration: Fetch products and handle user interactions.
-
  ![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge) High-fidelity interactive prototyping.
  
   ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge)
+
+  API Integration: Fetch products and handle user interactions.
   
 Git & GitHub: Version control and code hosting.
 

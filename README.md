@@ -8,24 +8,24 @@ A responsive, accessible, and interactive online store for gaming products, buil
 This project is part of a series of assignments focusing on different aspects of front-end development, including Design, HTML & CSS, and JavaScript. The website is built for a fictional client GameHub, an online shop where users can browse, view, and purchase a variety of computer games. The goal was to create a responsive and interactive site with a focus on best coding practices and accessibility standards.
 
 ## **Project Goals**
-Design an Interactive Prototype: Using Figma to create a high-fidelity design for the website.
+**Design an Interactive Prototype:** Using Figma to create a high-fidelity design for the website.
 
-Develop a Responsive and Accessible Site: Implementing the design using semantic HTML and modular CSS.
+**Develop a Responsive and Accessible Site:** Implementing the design using semantic HTML and modular CSS.
 
-Integrate JavaScript for Dynamic Interactions: Fetch data from an API, display products, and create a working shopping cart and checkout system.
+**Integrate JavaScript for Dynamic Interactions:** Fetch data from an API, display products, and create a working shopping cart and checkout system.
 
 ## **Key Features**
-Product Listing: Display a list of products on the homepage.
+**Product Listing:** Display a list of products on the homepage.
 
-Filtering Options: Filter products by category, gender, or genre.
+**Filtering Options:** Filter products by category, gender, or genre.
 
-Product Details: View more information about a specific product on its own page.
+**Product Details:** View more information about a specific product on its own page.
 
-Shopping Basket: Add and remove products from a cart.
+**Shopping Basket:** Add and remove products from a cart.
 
-Order Summary and Checkout: View cart contents and proceed to checkout.
+**Order Summary and Checkout:** View cart contents and proceed to checkout.
 
-Confirmation Page: Display an order confirmation after completing a purchase.
+**Confirmation Page:** Display an order confirmation after completing a purchase.
 
 
 ## **Built With**

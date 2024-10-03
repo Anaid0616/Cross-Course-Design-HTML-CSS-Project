@@ -50,7 +50,7 @@ To get a local copy up and running, follow these steps:
 
 Clone the repository:
 ```bash
-git clone https://github.com/YourUsername/cross-course-project-design-html-css.git
+git clone https://github.com/Anaid0616/cross-course-project-design-html-css.git
 ```
 
 Navigate to the project directory:

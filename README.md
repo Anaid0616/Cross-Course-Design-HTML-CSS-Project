@@ -10,7 +10,7 @@ This project is part of a series of assignments focusing on different aspects of
 
 
 ## **Project Goals**
-**Design an Interactive Prototype:** Using Figma to create a high-fidelity design for the website.
+***Design an Interactive Prototype:*** Using Figma to create a high-fidelity design for the website.
 
 **Develop a Responsive and Accessible Site:** Implementing the design using semantic HTML and modular CSS.
 

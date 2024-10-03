@@ -150,6 +150,30 @@ My Front-End Development (FED1) instructors for their feedback and support.
 
 Box shadow site: https://cssgenerator.org/box-shadow-css-generator.html 
 
+Images:
+
+Midjourney 
+
+Covers från https://www.gamekeys.se/ 
+
+https://unsplash.com/ 
+
 Icons: https://www.iconfinder.com/ 
+
+Icons plugins in Figma:
+
+Wordpress dashicons  
+
+Eva icons 
+
+Simple brand icon 
+
+Iconduk 
+
+Ikonscout 
+
+Material design Icons 
+
+---
 
 [Back to Top](#FED1-Project-Exam-1)

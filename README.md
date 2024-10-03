@@ -14,6 +14,8 @@ This project is part of a series of assignments focusing on different aspects of
 
 ---
 
+## **Table of Content**
+
 - [Project Goals](#project-goals)
 - [Key Features](#key-features)
 - [Built With](#built-with)

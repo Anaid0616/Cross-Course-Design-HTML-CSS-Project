@@ -2,10 +2,10 @@
 ![image](https://github.com/user-attachments/assets/7c7fd573-3771-43bf-8616-cf197cb71f8b)
 
 
-A responsive, accessible, and interactive fictional online store for gaming products, built as part of my Front-End Development (FED1) course at Noroff School of Technology and Digital Media.
+A responsive, accessible, and interactive online store for gaming products, built as part of my Front-End Development (FED1) course at Noroff School of Technology and Digital Media.
 
 ## **Description**
-This project is part of a series of assignments focusing on different aspects of front-end development, including Design, HTML & CSS, and JavaScript. The website is built for GameHub, an online shop where users can browse, view, and purchase a variety of computer games. The goal was to create a responsive and interactive site with a focus on best coding practices and accessibility standards.
+This project is part of a series of assignments focusing on different aspects of front-end development, including Design, HTML & CSS, and JavaScript. The website is built for a fictional client GameHub, an online shop where users can browse, view, and purchase a variety of computer games. The goal was to create a responsive and interactive site with a focus on best coding practices and accessibility standards.
 
 ## **Project Goals**
 Design an Interactive Prototype: Using Figma to create a high-fidelity design for the website.

@@ -4,8 +4,10 @@
 
 A responsive, accessible, and interactive online store for gaming products, built as part of my Front-End Development (FED1) course at Noroff School of Technology and Digital Media.
 
+
 ## **Description**
 This project is part of a series of assignments focusing on different aspects of front-end development, including Design, HTML & CSS, and JavaScript. The website is built for a fictional client GameHub, an online shop where users can browse, view, and purchase a variety of computer games. The goal was to create a responsive and interactive site with a focus on best coding practices and accessibility standards.
+
 
 ## **Project Goals**
 **Design an Interactive Prototype:** Using Figma to create a high-fidelity design for the website.
@@ -13,6 +15,7 @@ This project is part of a series of assignments focusing on different aspects of
 **Develop a Responsive and Accessible Site:** Implementing the design using semantic HTML and modular CSS.
 
 **Integrate JavaScript for Dynamic Interactions:** Fetch data from an API, display products, and create a working shopping cart and checkout system.
+
 
 ## **Key Features**
 **Product Listing:** Display a list of products on the homepage.
@@ -26,6 +29,7 @@ This project is part of a series of assignments focusing on different aspects of
 **Order Summary and Checkout:** View cart contents and proceed to checkout.
 
 **Confirmation Page:** Display an order confirmation after completing a purchase.
+
 
 
 ## **Built With**
@@ -45,6 +49,7 @@ API Integration: Fetch products and handle user interactions.
   
 Git & GitHub: Version control and code hosting.
 
+
 ## **Installing**
 To get a local copy up and running, follow these steps:
 
@@ -58,6 +63,7 @@ Navigate to the project directory:
 cd cross-course-project-design-html-css
 ```
 
+
 ## **Running**
 Since this is a static HTML, CSS, and JavaScript project, you can open the index.html file directly in your web browser.
 
@@ -65,6 +71,7 @@ Alternatively, you can use a live server (like the Live Server extension in Visu
 
 Open the project folder in VS Code.
 Right-click on index.html and select "Open with Live Server".
+
 
 ## **Project Structure**
 The following pages are available on the site:
@@ -94,8 +101,10 @@ The following pages are available on the site:
 
 **Order Confirmation:** After purchase, users see a thank you message confirming their order.
 
+
 ## **Contributing**
 Since this is a school project, contributions are not needed. However, if you have any feedback or suggestions, feel free to reach out!
+
 
 ## **Contact**
 If you want to connect or learn more about me:
@@ -107,6 +116,7 @@ Email: diana.bergelin@live.se
 
 ## **License**
 This project is not currently under any open-source license as it's a school project.
+
 
 ### **Acknowledgments**
 I would like to thank:

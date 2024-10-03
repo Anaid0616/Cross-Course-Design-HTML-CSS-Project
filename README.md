@@ -12,6 +12,22 @@ This project is part of a series of assignments focusing on different aspects of
 
 ---
 
+- [Description](#description)
+- [Project Goals](#project-goals)
+- [Key Features](#key-features)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Installing](#installing)
+  - [Running](#running)
+- [Project Structure](#project-structure)
+- [Features & User Stories](#features--user-stories)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+---
+
 ## **Project Goals**
 ***1. Design an Interactive Prototype:*** Using Figma to create a high-fidelity design for the website.
 

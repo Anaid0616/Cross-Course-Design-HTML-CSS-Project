@@ -85,7 +85,7 @@ The following pages are available on the site:
 - **Homepage (/index.html):** Displays a list of all available products.
 
 - **Games Page (/games.html):** A catalog page that lists all available games.
-- 
+
 - **About Page (/about.html):** This page provides details about GameHub, including its background, mission, and vision.
 
 - **Contact Page (/contact.html):** A simple form that allows users to get in touch with GameHub for inquiries, support, or feedback.

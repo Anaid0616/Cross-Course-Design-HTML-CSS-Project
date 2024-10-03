@@ -47,12 +47,14 @@ Git & GitHub: Version control and code hosting.
 To get a local copy up and running, follow these steps:
 
 Clone the repository:
-bash
+```bash
 git clone https://github.com/YourUsername/cross-course-project-design-html-css.git
+```
 
 Navigate to the project directory:
-bash
+```bash
 cd cross-course-project-design-html-css
+```
 
 ## **Running**
 Since this is a static HTML, CSS, and JavaScript project, you can open the index.html file directly in your web browser.
@@ -65,29 +67,30 @@ Right-click on index.html and select "Open with Live Server".
 ## **Project Structure**
 The following pages are available on the site:
 
-Homepage (/index.html): Displays a list of all available products.
+**Homepage (/index.html):** Displays a list of all available products.
 
-Product Page (/product/index.html): Displays detailed information about a specific product.
+**Product Page (/product/index.html):** Displays detailed information about a specific product.
 
-Checkout Page (/checkout/index.html): Shows the contents of the shopping basket for review before purchase.
+**Checkout Page (/checkout/index.html):** Shows the contents of the shopping basket for review before purchase.
 
-Order Confirmation Page (/checkout/confirmation/index.html): Displays a confirmation message after a successful checkout.
+**Order Confirmation Page (/checkout/confirmation/index.html):** Displays a confirmation message after a successful checkout.
 
-Features & User Stories
 
-View Products: Users can view a list of available products on the homepage.
+## **Features & User Stories**
 
-Filter Products: Users can filter products by various categories like genre or gender.
+**View Products:** Users can view a list of available products on the homepage.
 
-View Product Details: Users can click on a product to see more details on a dedicated page.
+**Filter Products:** Users can filter products by various categories like genre or gender.
 
-Add to Basket: Users can add products to their shopping cart.
+**View Product Details:** Users can click on a product to see more details on a dedicated page.
 
-Remove from Basket: Users can remove products from the cart if they change their mind.
+**Add to Basket:** Users can add products to their shopping cart.
 
-Checkout: Users can view their cart summary and complete the purchase process.
+**Remove from Basket:** Users can remove products from the cart if they change their mind.
 
-Order Confirmation: After purchase, users see a thank you message confirming their order.
+**Checkout:** Users can view their cart summary and complete the purchase process.
+
+**Order Confirmation:** After purchase, users see a thank you message confirming their order.
 
 ## **Contributing**
 Since this is a school project, contributions are not needed. However, if you have any feedback or suggestions, feel free to reach out!

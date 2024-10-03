@@ -1,34 +1,85 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13043838&assignment_repo_type=AssignmentRepo)
-# HTML & CSS Course Assignment
+## **Cross-Course Project: GameHub**
+![image](https://github.com/user-attachments/assets/7c7fd573-3771-43bf-8616-cf197cb71f8b)
 
-## Brief
 
-You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1.
+A responsive, accessible, and interactive fictional online store for gaming products, built as part of my Front-End Development (FED1) course at Noroff School of Technology and Digital Media.
 
-The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button.
+### **Description**
+This project is part of a series of assignments focusing on different aspects of front-end development, including Design, HTML & CSS, and JavaScript. The website is built for GameHub, an online shop where users can browse, view, and purchase a variety of computer games. The goal was to create a responsive and interactive site with a focus on best coding practices and accessibility standards.
 
-- The HTML should be semantic and neat.
-- The CSS should follow the DRY principle and be easy to read.
-- The website should be responsive and look good at every screen size with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap; we want to see that you can build responsive sites without the help of a framework.
-- The site should be WCAG compliant, and accessibility should be taken into account.
-- Each page should have a unique <meta name="description">, <title>, and <h1>.
-- You should not use copied code in your submission. All code submitted must be written by yourself. You may use external sources to show you how to achieve specific effects, which should be included in your report.
+### **Project Goals**
+Design an Interactive Prototype: Using Figma to create a high-fidelity design for the website.
+Develop a Responsive and Accessible Site: Implementing the design using semantic HTML and modular CSS.
+Integrate JavaScript for Dynamic Interactions: Fetch data from an API, display products, and create a working shopping cart and checkout system.
 
-## Process
+### **Key Features**
+Product Listing: Display a list of products on the homepage.
+Filtering Options: Filter products by category, gender, or genre.
+Product Details: View more information about a specific product on its own page.
+Shopping Basket: Add and remove products from a cart.
+Order Summary and Checkout: View cart contents and proceed to checkout.
+Confirmation Page: Display an order confirmation after completing a purchase.
 
-1. Look at your prototype and consider how the elements will move across the different devices. Which elements move where on different devices?
-2. Write your HTML and CSS, ensuring your HTML is semantic and bug-free and your CSS follows DRY principles.
-3. Use media queries, flex or grid to make your website responsive across screen sizes.
-4. Test your website using your developer tools and also test on major browsers and various devices.
-5. Validate your code using the Markup Validation Service
-6. Use the WAVE Web Accessibility Evaluation Tools to test that your site matches best practices for accessibility
-7. When your site is ready, post it on the Teams peer review channel.
-8. Look at the work of your peers and write a review for them.
-9. Make adjustments based on the feedback you gather from peers and teachers.
-10. Submit here on Teams.
+### **Built With**
+The project uses the following technologies and tools:
 
-## Delivery
+HTML5: Semantic structure and formatting.
+CSS3: Styling and layout with Flexbox and CSS Grid.
+JavaScript (ES6+): Dynamic content and interactive functionality.
+API Integration: Fetch products and handle user interactions.
+Figma: High-fidelity interactive prototyping.
+Git & GitHub: Version control and code hosting.
 
-- Please include a link to your live site, deployed on Netlify or GitHub Pages in your submission.
-- Please include a link to your public GitHub repo containing your code in your submission.
-- There is no reflection for this CA.
+### **Installing**
+To get a local copy up and running, follow these steps:
+
+Clone the repository:
+bash
+Kopiera kod
+git clone https://github.com/YourUsername/cross-course-project-design-html-css.git
+Navigate to the project directory:
+bash
+Kopiera kod
+cd cross-course-project-design-html-css
+
+### **Running**
+Since this is a static HTML, CSS, and JavaScript project, you can open the index.html file directly in your web browser.
+
+Alternatively, you can use a live server (like the Live Server extension in Visual Studio Code):
+
+Open the project folder in VS Code.
+Right-click on index.html and select "Open with Live Server".
+
+### **Project Structure**
+The following pages are available on the site:
+
+Homepage (/index.html): Displays a list of all available products.
+Product Page (/product/index.html): Displays detailed information about a specific product.
+Checkout Page (/checkout/index.html): Shows the contents of the shopping basket for review before purchase.
+Order Confirmation Page (/checkout/confirmation/index.html): Displays a confirmation message after a successful checkout.
+Features & User Stories
+View Products: Users can view a list of available products on the homepage.
+Filter Products: Users can filter products by various categories like genre or gender.
+View Product Details: Users can click on a product to see more details on a dedicated page.
+Add to Basket: Users can add products to their shopping cart.
+Remove from Basket: Users can remove products from the cart if they change their mind.
+Checkout: Users can view their cart summary and complete the purchase process.
+Order Confirmation: After purchase, users see a thank you message confirming their order.
+Contributing
+Since this is a school project, contributions are not needed. However, if you have any feedback or suggestions, feel free to reach out!
+
+### **Contact**
+If you want to connect or learn more about me:
+
+Email: diana.bergelin@live.se
+ [LinkedIn](https://www.linkedin.com/in/diana-b-4209a72ba/)
+
+
+### **License**
+This project is not currently under any open-source license as it's a school project.
+
+### **Acknowledgments**
+I would like to thank:
+
+My Front-End Development (FED1) instructors for their feedback and support.
+

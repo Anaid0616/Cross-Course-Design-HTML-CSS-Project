@@ -1,15 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Example Title, replace me!</title>
-  <link rel="stylesheet" href="src/css/styles.css">
-</head>
-<body class="centered">
-  <div>
-    <img src="/assets/images/noroff-logo.png" alt="Noroff Logo">
-    <h1>Hello World!</h1>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Game Hub - your ultimate destination for PC and video games. Explore the universe of games as you browse through our vast selection, buy your favorites, and even trade for new adventures. Dive into a world where gaming knows no bounds. Start your journey with Game Hub today! | Home"
+    />
+    <title>Game Hub</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/images/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e9ab0044c8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./mjs/cartcounter.mjs" defer></script>
+    <script type="module" src="./mjs/index.mjs" defer></script>
+  </head>
+  <body>
+    <header>
+      <section class="header">
+        <input type="checkbox" id="checkbox-menu" />
+        <label
+          for="checkbox-menu"
+          class="hamburger-icon"
+          aria-label="Show menu"
+        >
+          <span class="show-menu">Show menu</span>
+          <i class="fas fa-bars" aria-hidden="true"></i
+        ></label>
+        <a href="/">
+          <img
+            src="./assets/images/gamehublogo.png"
+            class="logo"
+            alt="Game Hub Logo Icon - Navigate to Game Hub's Homepage"
+          />
+        </a>
+        <nav class="header-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="./html/games.html">Games</a></li>
+            <li><a href="./html/about.html">About</a></li>
+            <li><a href="./html/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="./checkout/index.html">
+          <img
+            src="./assets/images/cart.png"
+            class="cart"
+            alt="Shopping Cart Icon - Access Your Shopping Cart"
+          />
+          <span id="cart-count" class="cart-count">0</span></a
+        >
+      </section>
+    </header>
+
+    <main>
+      <section class="start-game">
+        <img
+          src="./assets/images/cyberpunkfront.jpg"
+          alt="Cyberpunk — a game that immerses you in a dystopian future where humanity and technology collide"
+          class="front-img"
+        />
+        <div class="game-content">
+          <img
+            src="./assets/images/cyberpunk-logo.png"
+            class="cyberpunklogo"
+            alt="Cyberpunk Logo"
+          />
+          <a href="./html/games.html" class="cta-button view-game-button"
+            >Available Now</a
+          >
+        </div>
+      </section>
+
+      <section class="extra-credit">
+        <div class="credit">
+          <div class="credit-content">
+            <h1>Get 20% Extra Trade Credit</h1>
+            <p>
+              When trading in towards Cyberpunk, Hogwarts Legacy and Wild Hearts
+            </p>
+          </div>
+
+          <div class="credit-content">
+            <div class="credit-wrapper">
+              <a href="./html/games.html" class="cta-button shop-button"
+                >Shop Now</a
+              >
+              <img
+                src="./assets/images/tradingarrows.png"
+                alt="Icon Trading Arrows"
+                class="arrows"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="games">
+        <a href="./html/games.html"
+          ><div class="games-box games-hover">
+            <div class="games-content">
+              <h2>New Releases</h2>
+              <p>Discover New Worlds!</p>
+              <img
+                src="./assets/images/control.png"
+                alt="Icon Gaming Consol"
+                class="games-icon"
+                id="con"
+              />
+            </div>
+
+            <div class="games-content">
+              <div class="games-container-wrapper">
+                <div class="games-container shadow" id="g1">
+                  <img
+                    src="./assets/images/baldursgate.jpg"
+                    alt="Baldurs Gate"
+                    class="games-cover"
+                  />
+                </div>
+                <div class="games-container shadow" id="g2">
+                  <img
+                    src="./assets/images/supersmashbros.jpg"
+                    alt="Super Smash Bros"
+                    class="games-cover"
+                  />
+                </div>
+              </div>
+            </div></div
+        ></a>
+
+        <a href="./html/games.html"
+          ><div class="games-box games-hover">
+            <div class="games-content">
+              <h2>Pre-Owned</h2>
+              <p>Endless Adventures!</p>
+              <img
+                src="./assets/images/earphones.png"
+                alt="Icon Earphones"
+                class="games-icon"
+                id="ear"
+              />
+            </div>
+
+            <div class="games-content">
+              <div class="games-container-wrapper">
+                <div class="games-container shadow" id="g3">
+                  <img
+                    src="./assets/images/assassins.jpg"
+                    alt="Assassin's"
+                    class="games-cover"
+                  />
+                </div>
+                <div class="games-container shadow" id="g4">
+                  <img
+                    src="./assets/images/nfs.jpg"
+                    alt="NFS heat"
+                    class="games-cover"
+                  />
+                </div>
+              </div>
+            </div></div
+        ></a>
+      </section>
+
+      <section class="bestsellers">
+        <h2>Bestsellers</h2>
+        <div class="bestsellers-covers">
+          <a href="./html/games.html"
+            ><div class="bestseller-img-container">
+              <img
+                src="./assets/images/forgelegend.jpg"
+                alt="Forge legend"
+                class="bestseller__img bestseller-hover"
+              />
+            </div>
+          </a>
+
+          <a href="./html/games.html"
+            ><div class="bestseller-img-container">
+              <img
+                src="./assets/images/hogwartslegacy.jpg"
+                alt="Hogwarts legacy"
+                class="bestseller__img bestseller-hover"
+              />
+            </div>
+          </a>
+
+          <a href="./html/games.html">
+            <div class="bestseller-img-container">
+              <img
+                src="./assets/images/spacewar.jpg"
+                alt="Space war"
+                class="bestseller__img bestseller-hover"
+              />
+            </div>
+          </a>
+
+          <a href="./html/games.html">
+            <div class="bestseller-img-container">
+              <img
+                src="./assets/images/wildhearts.jpg"
+                alt="Wildhearts"
+                class="bestseller__img bestseller-hover"
+              />
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="game-headline">Games: Playbox</h2>
+
+        <label for="filterSelect" class="visually-hidden"
+          >Choose a filter:</label
+        >
+        <p id="selectedOption"></p>
+        <select id="filterSelect">
+          <option value="all">All</option>
+          <option value="horror">Horror</option>
+          <option value="sports">Sports</option>
+          <option value="action">Action</option>
+        </select>
+
+        <div class="loader"></div>
+        <div class="product-list-index"></div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer">
+        <div class="menu">
+          <h3>QUICK MENU</h3>
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="./html/games.html">Games</a></li>
+              <li><a href="./html/about.html">About</a></li>
+              <li><a href="./html/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="connect">
+          <h3>CONNECT WITH US</h3>
+          <nav class="footer-nav aicon">
+            <ul>
+              <li>
+                <a href="./html/contact.html">
+                  <img
+                    src="./assets/images/facebook.png"
+                    alt="Facebook Icon"
+                    class="social-icons"
+                  />
+                </a>
+                <p>Facebook</p>
+              </li>
+              <li>
+                <a href="./html/contact.html">
+                  <img
+                    src="./assets/images/instagramlogo.png"
+                    alt="Instagram Icon"
+                    class="social-icons"
+                  />
+                </a>
+                <p>Instagram</p>
+              </li>
+              <li>
+                <a href="./html/contact.html">
+                  <img
+                    src="./assets/images/youtubelogo.png"
+                    alt="Youtube Icon"
+                    class="social-icons"
+                  />
+                </a>
+                <p>Youtube</p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="sign-up">
+          <h3>SIGN UP</h3>
+          <p class="light">Unleash Your Adventure! Get Limitless Gaming Fun!</p>
+          <form>
+            <label for="emailInput" class="visually-hidden"
+              >Enter your E-mail:</label
+            >
+            <input
+              type="email"
+              id="emailInput"
+              placeholder="Enter your E-mail"
+              required
+            />
+            <button type="submit" class="cta-button" id="sign-button">
+              JOIN
+            </button>
+          </form>
+
+          <div class="payments margin">
+            <img
+              src="./assets/images/klarna.png"
+              alt="Klarna"
+              class="payment__icons"
+              id="payment-klarna"
+            />
+            <img
+              src="./assets/images/paypal.png"
+              alt="Paypal"
+              class="payment__icons"
+            />
+            <img
+              src="./assets/images/visa.png"
+              alt="Visa"
+              class="payment__icons"
+            />
+            <img
+              src="./assets/images/Mastercard.png"
+              alt="Mastercard"
+              class="payment__icons"
+              id="payment-mastercard"
+            />
+          </div>
+        </div>
+
+        <div class="copy-container">
+          <div class="copy">&copy; Game Hub 2023</div>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>

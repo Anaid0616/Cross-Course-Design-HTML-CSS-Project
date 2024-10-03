@@ -1,0 +1,101 @@
+@import url("./style.css");
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 1400px;
+  grid-gap: 40px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.product-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.product-content:hover {
+  transform: scale(1.01);
+}
+
+.background {
+  background-color: #070814;
+  width: 380px;
+  border-radius: 10px;
+}
+
+.product h1 {
+  margin-bottom: 60px;
+  background-image: linear-gradient(to right, #82017f, #df06a6);
+  background-size: 100% 4px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.background h2 {
+  text-align: left;
+}
+
+.background h2 {
+  font-size: 1.25rem;
+  margin-bottom: -13px;
+  margin-left: 40px;
+}
+
+.background p {
+  font-weight: lighter;
+  margin-left: 40px;
+}
+
+.background h3 {
+  font-size: 1.6rem;
+  padding-top: 2px;
+  padding-bottom: 25px;
+  margin-bottom: -5px;
+  margin-left: 40px;
+}
+
+.img-container {
+  min-width: 100%;
+  height: 400px;
+  padding: 40px 40px 4px 40px;
+  overflow: hidden;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 377px) {
+  .background {
+    width: 280px;
+  }
+
+  .img-container {
+    height: 450px;
+    padding: 20px 20px 4px 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .product-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1300px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1900px) {
+  .product-list {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1900px;
+  }
+}

@@ -101,6 +101,7 @@ Since this is a school project, contributions are not needed. However, if you ha
 If you want to connect or learn more about me:
 
 Email: diana.bergelin@live.se
+
  [LinkedIn](https://www.linkedin.com/in/diana-b-4209a72ba/)
 
 
@@ -110,5 +111,14 @@ This project is not currently under any open-source license as it's a school pro
 ### **Acknowledgments**
 I would like to thank:
 
+Information: Mollify, w3schools
+
+My friend jimmy Rickardsson for helping me forward when i was all lost.
+
+Sources for inspirations: Youtube tutorials from Kevin Powell, Web Dev, developed by ed etc. 
+
 My Front-End Development (FED1) instructors for their feedback and support.
 
+Box shadow site: https://cssgenerator.org/box-shadow-css-generator.html 
+
+Icons: https://www.iconfinder.com/ 

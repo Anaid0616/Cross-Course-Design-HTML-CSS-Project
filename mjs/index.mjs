@@ -37,7 +37,9 @@ function displayGame(product) {
   productDiv.classList.add("background");
 
   const anchor = document.createElement("a");
-  anchor.href = `../product/index.html?id=${product.id}`;
+  anchor.href = `./product/index.html?id=${product.id}`;
+
+  console.log(`Link: ../product/index.html?id=${product.id}`);
 
   const imgContainer = document.createElement("div");
   imgContainer.classList.add("img-container");

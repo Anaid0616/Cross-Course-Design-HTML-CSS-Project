@@ -18,17 +18,17 @@ This project is part of a series of assignments focusing on different aspects of
 
 
 ## **Key Features**
-**Product Listing:** Display a list of products on the homepage.
+- **Product Listing:** Display a list of products on the homepage.
 
-**Filtering Options:** Filter products by category, gender, or genre.
+- **Filtering Options:** Filter products by category, gender, or genre.
 
-**Product Details:** View more information about a specific product on its own page.
+- **Product Details:** View more information about a specific product on its own page.
 
-**Shopping Basket:** Add and remove products from a cart.
+- **Shopping Basket:** Add and remove products from a cart.
 
-**Order Summary and Checkout:** View cart contents and proceed to checkout.
+- **Order Summary and Checkout:** View cart contents and proceed to checkout.
 
-**Confirmation Page:** Display an order confirmation after completing a purchase.
+- **Confirmation Page:** Display an order confirmation after completing a purchase.
 
 
 
@@ -53,12 +53,12 @@ Git & GitHub: Version control and code hosting.
 ## **Installing**
 To get a local copy up and running, follow these steps:
 
-Clone the repository:
+### **1. Clone the repository:**
 ```bash
 git clone https://github.com/Anaid0616/cross-course-project-design-html-css.git
 ```
 
-Navigate to the project directory:
+### **2. Navigate to the project directory:**
 ```bash
 cd cross-course-project-design-html-css
 ```
@@ -132,3 +132,5 @@ My Front-End Development (FED1) instructors for their feedback and support.
 Box shadow site: https://cssgenerator.org/box-shadow-css-generator.html 
 
 Icons: https://www.iconfinder.com/ 
+
+[Back to Top](#FED1-Project-Exam-1)

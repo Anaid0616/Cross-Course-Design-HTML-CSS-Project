@@ -12,9 +12,9 @@ This project is part of a series of assignments focusing on different aspects of
 ## **Project Goals**
 ***Design an Interactive Prototype:*** Using Figma to create a high-fidelity design for the website.
 
-**Develop a Responsive and Accessible Site:** Implementing the design using semantic HTML and modular CSS.
+***Develop a Responsive and Accessible Site:*** Implementing the design using semantic HTML and modular CSS.
 
-**Integrate JavaScript for Dynamic Interactions:** Fetch data from an API, display products, and create a working shopping cart and checkout system.
+***Integrate JavaScript for Dynamic Interactions:*** Fetch data from an API, display products, and create a working shopping cart and checkout system.
 
 
 ## **Key Features**

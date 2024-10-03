@@ -82,31 +82,13 @@ Right-click on index.html and select "Open with Live Server".
 ## **Project Structure**
 The following pages are available on the site:
 
-**Homepage (/index.html):** Displays a list of all available products.
+- **Homepage (/index.html):** Displays a list of all available products.
 
-**Product Page (/product/index.html):** Displays detailed information about a specific product.
+- **Product Page (/product/index.html):** Displays detailed information about a specific product.
 
-**Checkout Page (/checkout/index.html):** Shows the contents of the shopping basket for review before purchase.
+- **Checkout Page (/checkout/index.html):** Shows the contents of the shopping basket for review before purchase.
 
-**Order Confirmation Page (/checkout/confirmation/index.html):** Displays a confirmation message after a successful checkout.
-
----
-
-## **Features & User Stories**
-
-- **View Products:** Users can view a list of available products on the homepage.
-
-- **Filter Products:** Users can filter products by various categories like genre or gender.
-
-- **View Product Details:** Users can click on a product to see more details on a dedicated page.
-
-- **Add to Basket:** Users can add products to their shopping cart.
-
-- **Remove from Basket:** Users can remove products from the cart if they change their mind.
-
-- **Checkout:** Users can view their cart summary and complete the purchase process.
-
-- **Order Confirmation:** After purchase, users see a thank you message confirming their order.
+- **Order Confirmation Page (/checkout/confirmation/index.html):** Displays a confirmation message after a successful checkout.
 
 ---
 

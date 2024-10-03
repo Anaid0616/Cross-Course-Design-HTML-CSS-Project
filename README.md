@@ -160,19 +160,7 @@ https://unsplash.com/
 
 Icons: https://www.iconfinder.com/ 
 
-Icons plugins in Figma:
-
-Wordpress dashicons  
-
-Eva icons 
-
-Simple brand icon 
-
-Iconduk 
-
-Ikonscout 
-
-Material design Icons 
+Icons plugins in Figma
 
 ---
 

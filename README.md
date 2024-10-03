@@ -12,11 +12,11 @@ This project is part of a series of assignments focusing on different aspects of
 ---
 
 ## **Project Goals**
-***Design an Interactive Prototype:*** Using Figma to create a high-fidelity design for the website.
+***1. Design an Interactive Prototype:*** Using Figma to create a high-fidelity design for the website.
 
-***Develop a Responsive and Accessible Site:*** Implementing the design using semantic HTML and modular CSS.
+***2. Develop a Responsive and Accessible Site:*** Implementing the design using semantic HTML and modular CSS.
 
-***Integrate JavaScript for Dynamic Interactions:*** Fetch data from an API, display products, and create a working shopping cart and checkout system.
+***3. Integrate JavaScript for Dynamic Interactions:*** Fetch data from an API, display products, and create a working shopping cart and checkout system.
 
 ---
 
@@ -83,6 +83,12 @@ Right-click on index.html and select "Open with Live Server".
 The following pages are available on the site:
 
 - **Homepage (/index.html):** Displays a list of all available products.
+
+- **Games Page (/games.html):** A catalog page that lists all available games.
+- 
+- **About Page (/about.html):** This page provides details about GameHub, including its background, mission, and vision.
+
+- **Contact Page (/contact.html):** A simple form that allows users to get in touch with GameHub for inquiries, support, or feedback.
 
 - **Product Page (/product/index.html):** Displays detailed information about a specific product.
 

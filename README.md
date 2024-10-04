@@ -8,7 +8,7 @@
 
 A responsive, accessible, and interactive online store for gaming products, built as part of my Front-End Development (FED1) course at Noroff School of Technology and Digital Media.
 
-[Live Site](https://anaid0616.github.io/cross-course-project-design-html-css/)
+[Live Site Game Hub](https://anaid0616.github.io/cross-course-project-design-html-css/)
 
 ---
 
@@ -130,7 +130,7 @@ Since this is a school project, contributions are not needed. However, if you ha
 ## **Contact**
 If you want to connect or learn more about me:
 
-Email: diaber01800@stud.noroff.no
+Email: diana.bergelin@live.se
 
  [LinkedIn](https://www.linkedin.com/in/diana-b-4209a72ba/)
 

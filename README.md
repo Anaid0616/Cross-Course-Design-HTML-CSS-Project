@@ -7,17 +7,14 @@
 
 
 A responsive, accessible, and interactive online store for gaming products, built as part of my Front-End Development (FED1) course at Noroff School of Technology and Digital Media.
+
 [Live Site](https://anaid0616.github.io/cross-course-project-design-html-css/)
-
----
-
-## **Description**
-This project is part of a series of assignments focusing on different aspects of front-end development, including Design, HTML & CSS, and JavaScript. The website is built for a fictional client GameHub, an online shop where users can browse, view, and purchase a variety of computer games. The goal was to create a responsive and interactive site with a focus on best coding practices and accessibility standards.
 
 ---
 
 ## **Table of Content**
 
+- [Description](#description)
 - [Project Goals](#project-goals)
 - [Key Features](#key-features)
 - [Built With](#built-with)
@@ -30,6 +27,11 @@ This project is part of a series of assignments focusing on different aspects of
 - [Contact](#contact)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+---
+
+## **Description**
+This project is part of a series of assignments focusing on different aspects of front-end development, including Design, HTML & CSS, and JavaScript. The website is built for a fictional client GameHub, an online shop where users can browse, view, and purchase a variety of computer games. The goal was to create a responsive and interactive site with a focus on best coding practices and accessibility standards.
 
 ---
 

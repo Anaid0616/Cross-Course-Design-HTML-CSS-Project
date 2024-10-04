@@ -6,7 +6,7 @@
 
 
 
-A responsive, accessible, and interactive online store for gaming products, built as part of my Front-End Development (FED1) course at Noroff School of Technology and Digital Media.
+A responsive, accessible, and visually engaging website for the fictional gaming page Game Hub, built as part of the Front-End Development course at Noroff School of Technology and Digital Media.
 
 [Live Site Game Hub](https://anaid0616.github.io/cross-course-project-design-html-css/)
 

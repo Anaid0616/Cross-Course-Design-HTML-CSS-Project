@@ -164,4 +164,4 @@ Icons plugins in Figma
 
 ---
 
-[Back to Top](#FED1-Project-Exam-1)
+[Back to Top](#Cross-Course Project: GameHub)

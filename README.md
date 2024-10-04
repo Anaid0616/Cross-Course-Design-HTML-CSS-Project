@@ -2,7 +2,8 @@
 **Diana Bergelin**
 
 
-![image](https://github.com/user-attachments/assets/7c7fd573-3771-43bf-8616-cf197cb71f8b)
+![image](https://github.com/user-attachments/assets/b545391e-877e-437a-9f73-c07a140f43c6)
+
 
 
 A responsive, accessible, and interactive online store for gaming products, built as part of my Front-End Development (FED1) course at Noroff School of Technology and Digital Media.

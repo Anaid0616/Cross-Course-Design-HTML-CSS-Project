@@ -8,6 +8,7 @@
 
 A responsive, accessible, and interactive online store for gaming products, built as part of my Front-End Development (FED1) course at Noroff School of Technology and Digital Media.
 [Live Site](https://anaid0616.github.io/cross-course-project-design-html-css/)
+
 ---
 
 ## **Description**

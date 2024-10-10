@@ -29,29 +29,39 @@
   margin-top: 20px;
 }
 
+.quantity-container {
+  display: flex;
+  margin-top: 20px;
+}
+
 .quantity {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90px;
-  margin-top: -15px;
 }
 
 .quantity-remove {
   display: flex;
-  padding-right: 20px;
+  padding-right: 18px;
 }
 
 .quantity-control-add {
   max-height: 30px;
   max-width: 22px;
   border-radius: 5px;
+  margin: 0 10px;
+}
+
+.quantity-checkout {
+  margin-top: 4px;
 }
 
 .quantity-control-subtract {
   max-height: 30px;
   max-width: 26px;
   border-radius: 5px;
+  margin: 0 10px;
 }
 
 .img-title {

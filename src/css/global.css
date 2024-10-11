@@ -132,7 +132,9 @@ header {
 }
 
 .cta-button:hover {
-  transform: scale(1.08);
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* loader */
@@ -366,7 +368,7 @@ footer {
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 500;
   font-size: 0.75rem;
-  padding: 5px 23px 5px 18px;
+  padding: 4px 23px 4px 18px;
   border-radius: 0px 5px 5px 0px;
   margin-left: -3px;
   border: none;

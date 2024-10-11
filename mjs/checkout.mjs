@@ -129,6 +129,13 @@ function generateCartItemHtml(item) {
   const removeButton = document.createElement("button");
   removeButton.textContent = "Remove";
   removeButton.classList.add("remove-item");
+  removeButton.innerHTML = '<i class="fas fa-trash"></i>';
+
+  // Add event listener for remove button
+  removeButton.addEventListener("click", () => {
+    removeItem(item);
+    updateCartCounter();
+  });
 
   // Append the controls and quantity element to the quantity container
   quantityContainer.appendChild(subtractButton);

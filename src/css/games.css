@@ -7,6 +7,7 @@
   grid-gap: 40px;
   margin: auto;
   margin-bottom: 80px;
+  justify-items: center;
 }
 
 .product-list a {
@@ -39,26 +40,27 @@
 
 .background h2 {
   font-size: 1.25rem;
-  margin-bottom: -13px;
-  margin-left: 40px;
+  margin: 0 20px;
+  padding-top: 10px;
+  padding-left: 18px;
 }
 
 .background p {
   font-weight: lighter;
   margin-left: 40px;
+  margin-right: 40px;
 }
 
 .background h3 {
   font-size: 1.6rem;
-  padding-top: 2px;
-  padding-bottom: 25px;
-  margin-bottom: -5px;
-  margin-left: 40px;
+  margin: 0 20px;
+  padding-bottom: 20px;
+  padding-left: 18px;
 }
 
 .img-container {
   min-width: 100%;
-  height: 400px;
+  max-height: 450px;
   padding: 40px 40px 4px 40px;
   overflow: hidden;
 }

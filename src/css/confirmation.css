@@ -28,8 +28,7 @@
 .cs-button {
   border-radius: 5px;
   margin: auto;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding: 16px 110px;
 }
 
 @media screen and (max-width: 340px) {

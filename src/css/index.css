@@ -30,6 +30,13 @@
   max-width: 80%;
 }
 
+.view-game-button {
+  font-weight: 501;
+  font-size: 1rem;
+  padding: 18px 34px;
+  margin-top: -25px;
+}
+
 .extra-credit {
   background-color: #070814;
   border-radius: 40px;

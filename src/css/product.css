@@ -1,5 +1,11 @@
 @import url("./style.css");
 
+.product-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .product {
   margin: 0 10px 80px 10px;
 }
@@ -19,13 +25,11 @@
 
 .background-product {
   background-color: #070814;
-  margin: 0 10px;
   max-height: 720px;
-  width: 570px;
+  max-width: 570px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
   border-radius: 10px;
 }
 
@@ -35,16 +39,14 @@
 }
 
 .product-content {
-  width: 100%;
+  max-width: 600px;
 }
 
-.product-content h2,
-.product-content h3 {
-  padding-left: 8%;
+.text-info {
+  max-width: 500px;
 }
 
 .genre {
-  padding-left: 8%;
   margin-bottom: 40px;
   font-weight: 200;
 }
@@ -61,7 +63,6 @@
 }
 
 .description {
-  padding-left: 8%;
   padding-bottom: 40px;
 }
 
@@ -73,26 +74,12 @@
 
 .atc {
   border-radius: 5px;
-  margin-left: 8%;
-  padding-left: 100px;
-  padding-right: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 /* media queries */
-
-@media screen and (min-width: 200px) and (max-width: 400px) {
-  .atc {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
-
-@media screen and (min-width: 401px) and (max-width: 600px) {
-  .atc {
-    padding-left: 110px;
-    padding-right: 110px;
-  }
-}
 
 @media screen and (min-width: 1100px) {
   .product {
@@ -118,13 +105,6 @@
 
   .atc {
     margin-left: 20px;
-  }
-}
-
-@media screen and (min-width: 1100px) and (max-width: 1200px) {
-  .atc {
-    padding-left: 150px;
-    padding-right: 150px;
   }
 }
 

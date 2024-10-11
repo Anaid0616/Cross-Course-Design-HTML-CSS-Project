@@ -49,3 +49,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     console.error("Error fetching product:", error);
   }
 });
+
+window.addEventListener("storage", () => {
+  renderLayout(); // Re-render the checkout page whenever local storage changes
+});

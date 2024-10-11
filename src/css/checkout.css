@@ -126,9 +126,13 @@
 
 .order-button {
   border-radius: 5px;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding: 22px 30px;
+  width: auto;
+  text-align: center;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .order-top-margin {
@@ -281,9 +285,6 @@
     padding-top: 10px;
     width: 100%;
   }
-}
-
-@media screen and (min-width: 350px) {
 }
 
 @media screen and (min-width: 701px) {

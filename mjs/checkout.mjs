@@ -50,9 +50,22 @@ function removeItem(item) {
 }
 
 function getCartItems() {
-  return JSON.parse(localStorage.getItem("cart")) || [];
-  console.log("Current cart items:", cartItems); // Debugging statement
-  return cartItems;
+  const cartItems = JSON.parse(localStorage.getItem("cart")) || [];
+
+  // Combine items with the same ID
+  const combinedItems = cartItems.reduce((acc, currentItem) => {
+    const existingItem = acc.find((item) => item.id === currentItem.id);
+    if (existingItem) {
+      // If already exists, update the quantity
+      existingItem.quantity += currentItem.quantity;
+    } else {
+      // Add new item
+      acc.push({ ...currentItem });
+    }
+    return acc;
+  }, []);
+
+  return combinedItems;
 }
 
 //Generate cart item
@@ -100,7 +113,7 @@ function generateCartItemHtml(item) {
 
   // Quantity
   const quantityElement = document.createElement("p");
-  quantityElement.textContent = `${item.quantity}`;
+  quantityElement.textContent = `${item.quantity ?? 1}`;
   quantityElement.classList.add("quantity-checkout");
 
   // Quantity Control Buttons
@@ -227,13 +240,32 @@ cartContainer.addEventListener("click", (event) => {
 
   if (event.target.classList.contains("quantity-control-add")) {
     addItem(item);
+    updateCartCounter();
   }
 
   if (event.target.classList.contains("quantity-control-subtract")) {
     subtractItem(item);
+    updateCartCounter();
   }
 
   if (event.target.classList.contains("remove-item")) {
     removeItem(item);
+    updateCartCounter();
   }
+});
+
+window.addEventListener("storage", () => {
+  renderLayout(); // Re-render the checkout page whenever local storage changes
+});
+
+// Get the "Complete order" button
+const completeOrderButton = document.querySelector(".order-button");
+
+// Add a click event listener to clear the cart
+completeOrderButton.addEventListener("click", () => {
+  // Clear the cart from local storage
+  localStorage.removeItem("cart");
+
+  // Update the cart counter
+  updateCartCounter();
 });
